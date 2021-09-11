@@ -1,0 +1,27 @@
+train:
+  SEED: 42
+  HEIGHT: 256
+  WIDTH: 256
+  BATCH_SIZE: 1
+  LR: 1e-4
+  EPOCHS: 50
+
+model:
+  NAME: 'vgg19_unet'  # unet, vgg19_unet or unet_resnet50
+  POOL_SIZE: 2,2
+  FILTERS: 64
+  ACTIVATION: 'relu'
+  OUTPUT_ACTIVATION: 'sigmoid'
+
+callback:
+  monitor: 'val_loss'
+  reduce_lr_patience: 20
+  min_lr: 1e-7
+  early_stop_patience: 35
+
+augmentation:
+  HORIZONTAL_FLIP: 1
+  VERTICAL_FLIP: 1
+  SHIFT_LIMIT: 0
+  SCALE_LIMIT: 0
+  ROTATE_LIMIT: 45

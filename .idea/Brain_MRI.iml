@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/dataset" />
+      <excludeFolder url="file://$MODULE_DIR$/logs" />
+      <excludeFolder url="file://$MODULE_DIR$/mlruns" />
+      <excludeFolder url="file://$MODULE_DIR$/models/baseline/eval_result" />
+      <excludeFolder url="file://$MODULE_DIR$/models/bmri_train_v1.0.0/unet_1_batch_size/eval_result" />
+      <excludeFolder url="file://$MODULE_DIR$/models/bmri_train_v1.0.0/unet_resnet50/eval_result" />
+      <excludeFolder url="file://$MODULE_DIR$/models/bmri_train_v1.0.0/unet_resnet50_epoch50/eval_result" />
+      <excludeFolder url="file://$MODULE_DIR$/models/bmri_train_v1.0.0/unet_resnet50_updated/eval_result" />
+      <excludeFolder url="file://$MODULE_DIR$/models/bmri_train_v1.0.0/unet_resnet50_updated_50-epochs/eval_result" />
+      <excludeFolder url="file://$MODULE_DIR$/models/bmri_train_v1.0.0/vgg19_unet/eval_result" />
+      <excludeFolder url="file://$MODULE_DIR$/models/bmri_train_v1.0.0/vgg19_unet_50-epochs/eval_result" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="GOOGLE" />
+    <option name="myDocStringFormat" value="Google" />
+    <option name="renderExternalDocumentation" value="true" />
+  </component>
+</module>

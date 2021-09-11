@@ -1,0 +1,11 @@
+tensorflow
+numpy
+sklearn
+coloredlogs
+albumentations
+tqdm
+opencv-python
+pillow
+pandas
+mlflow
+segmentation_models
