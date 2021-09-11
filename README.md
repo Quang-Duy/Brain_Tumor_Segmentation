@@ -24,7 +24,6 @@ The directory structure of the Brain Tumor Segmentation project looks like this:
 |       ├── bmri_UNet_resnet50_model.py
 |       ├── bmri_Unet_Vgg19_model.py
 |       └── make_model.py
-├── models                                  <- Location where all models are saved under
 ├── notebooks                               <- Quick look at dataset analysis
 ├── requirements.txt                        <- Requirements to download before executing project
 └── params.yaml                             <- Contains parameters of model to load and train with
